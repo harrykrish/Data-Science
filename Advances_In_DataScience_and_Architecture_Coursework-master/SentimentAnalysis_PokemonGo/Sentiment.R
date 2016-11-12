@@ -27,10 +27,11 @@ library(twitteR)
 setwd("C:/Users/Lakshmi/Documents/text_mining_and_web_scraping")
 
 # Setting the authentication
-api_key <- "ClWMbfS8GuqlSg3TRrhaRqz9v"
-api_secret <- "tPXXRu0HnatNYf4mBtbqZ4YEmd3bq3Y839U8Y9bDzprRmCBoTk"
-access_token <- "748605873782665220-YJQbnK0s2GzDdu0wKU3KRY3iZDL2mbs"
-access_token_secret <- "tlDMjBupP01fBVib9SOFDRf3dcTdkNKb5Tz6zqyqdooiS"
+(Authentication details have been replaced by stars. Please retrieve twitter authenticaion for your account from Twitter Application Management)
+api_key <- "****"
+api_secret <- "****"
+access_token <- "****"
+access_token_secret <- "****"
 
 # Authentication
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
